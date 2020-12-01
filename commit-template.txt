@@ -1,0 +1,31 @@
+Summary_on_this_line.
+
+## Please add *why* you did this
+
+## Put updates for changelog here
+# feature: new_feature
+# fix: bug_fix
+# docs: changes_to_documentation
+# style: formatting___missing_semi_colons__etc___no_code_change
+# refactor: refactoring_production_code
+# test: adding_missing_tests__refactoring_tests__no_production_code_change
+# chore: updating_grunt_tasks_etc__no_production_code_change
+
+
+## Formatting
+
+### For the subject line:
+#   * Use 50 characters maximum.
+#   * Do not use a sentence-ending period.
+#
+### For the body text:
+#   * Use as many lines as you like.
+#   * Use 72 characters maximum per line for typical word wrap text.
+
+
+### Inspirations for this template
+
+# https://github.com/joelparkerhenderson/git_commit_template
+# https://karma-runner.github.io/0.10/dev/git-commit-msg.html
+# https://seesparkbox.com/foundry/semantic_commit_messages
+ 
