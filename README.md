@@ -1,6 +1,6 @@
 # Git Commit Template
 
-# Set up
+## Set up
 
 Place the template somewhere, I use `~/.git-templates` to store all my templates. Then, in my git config (which is located at `~/.gitconfig`), add the following:
 
@@ -12,7 +12,11 @@ Place the template somewhere, I use `~/.git-templates` to store all my templates
 
 Whenever you run `git commit` and the editor opens for you to type out your message, you should see this template instead of the default one supplied by Git.
 
-# Honourable mentions
+## Note!
+
+If you go through my commit messages you'll notice that I don't always follow the guidelines set out in the commit message. That's because *I'm the one writing the commit message, I say what goes*. What the template does do is guide me and remind me. Don't let rules rule you, but remember that others may need your commit messages later on.
+
+## Honourable mentions
 
 I wouldn't have thought to have done this without the following:
 
