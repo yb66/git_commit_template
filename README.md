@@ -2,7 +2,12 @@
 
 ## Set up
 
-Place the template somewhere, I use `~/.git-templates` to store all my templates. Then, in my git config (which is located at `~/.gitconfig`), add the following:
+Place the template somewhere, I use `~/.git-templates` to store all my templates (so the full path in my instance is `~/.git-templates/commit-template.txt`). So, if you have cURL you could do:
+
+	mkdir ~/.git-templates
+	curl https://raw.githubusercontent.com/yb66/git_commit_template/master/commit-template.txt > ~/.git-templates/commit-template.txt
+
+Then, in my git config (which is located at `~/.gitconfig`), I've added the following:
 
 	[init]
 		templatedir = ~/.git-templates
